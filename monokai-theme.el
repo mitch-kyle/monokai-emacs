@@ -5063,14 +5063,10 @@ Also affects 'linum-mode' background."
 
    ;; show-paren
    `(show-paren-match
-     ((,monokai-class (:foreground ,monokai-green
-                                   :background ,monokai-background
-                                   :weight normal
-                                   :inverse-video t))
-      (,monokai-256-class (:foreground ,monokai-256-green
-                                        :background ,monokai-256-background
-                                        :weight normal
-                                        :inverse-video t))))
+     ((,monokai-class (:background ,monokai-highlight-alt
+                                   :weight bold))
+      (,monokai-256-class (:background ,monokai-256-highlight-alt
+                                        :weight bold))))
 
    `(show-paren-mismatch
      ((,monokai-class (:foreground ,monokai-red
