@@ -3090,19 +3090,24 @@ Also affects 'linum-mode' background."
       (,monokai-256-class (:foreground ,monokai-256-blue))))
 
    `(swiper-line-face
-     ((,monokai-class (:background ,monokai-highlight-line))))
+     ((,monokai-class (:background ,monokai-gray-d))
+      (,monokai-256-class (:background ,monokai-256-gray-d))))
 
    `(swiper-match-face-1
-     ((,monokai-class (:background ,monokai-gray-d))))
+     ((,monokai-class (:background ,monokai-gray-d))
+      (,monokai-256-class (:background ,monokai-256-gray-d))))
 
    `(swiper-match-face-2
-     ((,monokai-class (:background ,monokai-green))))
+     ((,monokai-class (:background ,monokai-violet-d))
+      (,monokai-256-class (:background ,monokai-256-violet-d))))
 
    `(swiper-match-face-3
-     ((,monokai-class (:background ,monokai-orange))))
+     ((,monokai-class (:background ,monokai-green-d))
+      (,monokai-256-class (:background ,monokai-256-green-d))))
 
    `(swiper-match-face-4
-     ((,monokai-class (:background ,monokai-magenta))))
+     ((,monokai-class (:background ,monokai-yellow-d))
+      (,monokai-256-class (:background ,monokai-256-yellow-d))))
 
    ;; jabber
    `(jabber-activity-face
