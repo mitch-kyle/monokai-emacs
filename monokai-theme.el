@@ -5068,9 +5068,9 @@ Also affects 'linum-mode' background."
 
    ;; show-paren
    `(show-paren-match
-     ((,monokai-class (:background ,monokai-highlight-alt
+     ((,monokai-class (:background ,monokai-gray-l
                                    :weight bold))
-      (,monokai-256-class (:background ,monokai-256-highlight-alt
+      (,monokai-256-class (:background ,monokai-256-gray-l
                                         :weight bold))))
 
    `(show-paren-mismatch
