@@ -5066,6 +5066,77 @@ Also affects 'linum-mode' background."
                                         :weight normal
                                         :inverse-video t))))
 
+   ;; spaceline
+   `(spaceline-highlight-face
+     ((,monokai-class (:background ,monokai-green
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-green
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-evil-normal
+     ((,monokai-class (:background ,monokai-yellow
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-yellow
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-evil-insert
+     ((,monokai-class (:background ,monokai-green
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-green
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-evil-emacs
+     ((,monokai-class (:background ,monokai-cyan
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-cyan
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-evil-replace
+     ((,monokai-class (:background ,monokai-orange
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-orange
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-evil-visual
+     ((,monokai-class (:background ,monokai-gray
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-gray
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-evil-motion
+     ((,monokai-class (:background ,monokai-violet
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-violet
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-unmodified
+     ((,monokai-class (:background ,monokai-yellow
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-yellow
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-modified
+     ((,monokai-class (:background ,monokai-cyan
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-cyan
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
+   `(spaceline-read-only
+     ((,monokai-class (:background ,monokai-violet
+                                   :foreground ,monokai-background
+                                   :inherit mode-line))
+      (,monokai-256-class (:background ,monokai-256-violet
+                                       :foreground ,monokai-256-background
+                                       :inherit mode-line))))
    ;; show-paren
    `(show-paren-match
      ((,monokai-class (:background ,monokai-gray-l
